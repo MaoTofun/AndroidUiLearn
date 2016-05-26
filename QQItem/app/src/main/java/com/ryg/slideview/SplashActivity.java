@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import activity.tofun.com.AnimationActivity;
 import activity.tofun.com.CustomActivity;
 
 /**
@@ -31,6 +32,12 @@ public class SplashActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(SplashActivity.this,CustomActivity.class);
                 startActivity(intent);
+            }
+        });
+        findViewById(R.id.btn3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SplashActivity.this, AnimationActivity.class));
             }
         });
     }
