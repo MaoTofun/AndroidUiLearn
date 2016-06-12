@@ -9,6 +9,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/a"
+        android:layout_centerInParent="true"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:onClick="objectAnimationRun"
+            android:text="Object动画"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:onClick="verticalAnimationRun"
+            android:text="Value垂直动画"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:onClick="pwxAnimationRun"
+            android:text="Value抛物线动画"
+            />
+    </LinearLayout>
 
 </RelativeLayout>
