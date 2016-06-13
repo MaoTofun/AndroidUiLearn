@@ -8,5 +8,6 @@
     <string name="title_activity_proxy">ProxyActivity</string>
     <string name="title_activity_binder">BinderActivity</string>
     <string name="title_activity_async_task">AsyncTaskActivity</string>
+    <string name="title_activity_renren">RenrenActivity</string>
 
 </resources>

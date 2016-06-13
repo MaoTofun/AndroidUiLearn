@@ -12,6 +12,8 @@ import activity.tofun.com.AsyncTaskActivity;
 import activity.tofun.com.BinderActivity;
 import activity.tofun.com.CustomActivity;
 import activity.tofun.com.ProxyActivity;
+import activity.tofun.com.Renren2Activity;
+import activity.tofun.com.RenrenActivity;
 
 /**
  * Created by Administrator on 2016-5-18 0018.
@@ -60,6 +62,18 @@ public class SplashActivity extends Activity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SplashActivity.this, AsyncTaskActivity.class));
+            }
+        });
+        findViewById(R.id.btn7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SplashActivity.this, RenrenActivity.class));
+            }
+        });
+        findViewById(R.id.btn8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SplashActivity.this, Renren2Activity.class));
             }
         });
     }
